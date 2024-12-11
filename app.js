@@ -7,6 +7,6 @@ btn.addEventListener("click", function(e) {
   let content = document.querySelector("#error")
   if (content) {
     content.classList.add("active");
-    content.innerHTML = "you can not log in to  this account from your current location";
+    content.innerHTML = "Er-117: you can not log in to  this account from your current location";
   }
 });
